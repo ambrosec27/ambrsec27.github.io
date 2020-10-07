@@ -3,6 +3,15 @@
 <head>
 <title> Creat a HTML Table</title>
 
+<style> 
+
+table, th, td {
+  border: 1px solid black;
+   border-collapse: collapse;
+}
+
+</style>
+
 </head>
 <body>
 <table style="width:100%">
@@ -55,26 +64,31 @@
   <thead>
     <tr>
       <th>Month</th>
-      <th>Gas/food</th>
-      <th>Total</th>
+      <th>Gas</th>
+      <th>Food</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>December</td>
-      <td>$150/$200</td>
-      <td>$350</td>
+      <td>$150</td>
+      <td>$200</td>
     </tr>
     <tr>
       <td>January</td>
-      <td>$200/$100</td>
-      <td>$300</td>
+      <td>$200</td>
+      <td>$100</td>
     </tr>
     <tr>
         <td>Feburary</td>
-      <td>$180/$130</td>
-      <td>$310</td>
-  </tfoot>
+      <td>$180</td>
+      <td>$130</td>
+  </tbody>
+  <tfoot> 
+    <td> Total </td>
+    <td>$350</td>
+    <td>$300</td>
+</tfoot>
 </table>
 </body>
 </html>
