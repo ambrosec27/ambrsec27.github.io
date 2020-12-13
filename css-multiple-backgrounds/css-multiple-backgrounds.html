@@ -6,13 +6,21 @@
 #Josiah{
     height: 700px;
     width: 700px;
-    background-image: url(hat.png);
-    background-image: url(Josiah.jpg);
-    background-image: url(white.jpg)
+    background-image: url(hat.png), url(Jossiah.jpg), url(white.jpg);
+    background-position: 370px 90px, right bottom, left top;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size:  250px 250px, 500px 500px, auto;
+    padding: 15px;
+}
+#KML { 
+  background: url(hat.png) no-repeat 370px 90px 500px 500px, 
+  url(Jossiah.jpg) no-repeat right bottom 1000px 1000px, 
+  url(white.jpg) repeat left top auto;
 }
 </style>
 </head>
 <body>
 <div id="Josiah"></div>
+<div id="KML"></div>
 </body>
 </html>
