@@ -4,11 +4,9 @@
 <title>CSS Image Gallery</title>
 <style>
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+   border: 1px solid #ccc;
 }
+
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -16,133 +14,121 @@ div.gallery img {
   width: 100%;
   height: auto;
 }
+
 div.desc {
   padding: 15px;
   text-align: center;
 }
+
 * {
   box-sizing: border-box;
 }
+
 .responsive {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 25%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+    margin: 6px 0;
   }
 }
-.Europe {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-@media only screen and (max-width: 800px) {
-  .Europe {
-    width: 49.9999999%;
-  }
-}
+
+
 </style>
 </head>
 <body>
+
 <div class="responsive">
-<div class="gallery">
+  <div class="gallery">
     <a target="_blank" href="Soccerimage1.jpg">
       <img src="Soccerimage1.jpg" alt="Soccer image 1" width="600" height="400">
-  </a>
-  <div class="desc">Slide Tackle</div>
-  <div class="responsive">
-<div class="gallery">
-    <a target="_blank" href="soccerimage10.jpg">
-      <img src="soccerimage10.jpg" alt="Soccer image 10" width="600" height="400">
-  </a>
-  <div class="responsive">
-  <div class="desc">Marcus Rashford</div>
-<div class="gallery">
-    <a target="_blank" href="soccerimage11.jpg">
-      <img src="soccerimage11.jpg" alt="Soccer image 11" width="600" height="400">
-  </a>
-  <div class="responsive">
-  <div class="desc">Erling Haaland</div>
-  <div class="gallery">
-    <a target="_blank" href="Soccerimage2.jpg">
-      <img src="Soccerimage2.jpg" alt="Soccer image 2" width="600" height="400">
-  </a>
-  <div class="desc">Messi vs Kante</div>
-<div class="responsive">
-<div class="gallery">
-    <a target="_blank" href="Soccerimage4.jpg">
-      <img src="Soccerimage4.jpg" alt="Soccer image 4" width="600" height="400">
-  </a>
-  <div class="desc">Robert Lewandowski</div>
-  <div class="responsive">
-<div class="gallery">
-    <a target="_blank" href="Soccerimage5.jpg">
-      <img src="Soccerimage5.jpg" alt="Soccer image 5" width="600" height="400">
-  </a>
-  <div class="desc"></div>
-    <div class="responsive">
-<div class="gallery">
-    <a target="_blank" href="Soccerimage6.jpg">
-      <img src="Soccerimage6.jpg" alt="Soccer image 6" width="600" height="400">
-  </a>
-  <div class="desc">Cristiano Ronaldo</div>
-    <div class="responsive">
-<div class="gallery">
-    <a target="_blank" href="soccerimage9.jpg">
-      <img src="soccerimage9.jpg" alt="soccer image 9" width="600" height="400">
-  </a>
-  <div class="desc">Jadon Sancho</div>
+    </a>
+    <div class="desc">Slide Tackle</div>
+   <div>
 </div>
-<div class="Europe">
-<div class="gallery">
-    <a target="_blank" href="Soccerimage1.jpg">
-      <img src="Soccerimage1.jpg" alt="Soccer image 1" width="600" height="400">
-  </a>
-  <div class="desc">Slide Tackle</div>
-  <div class="Europe">
-<div class="gallery">
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="soccerimage10.jpg">
       <img src="soccerimage10.jpg" alt="Soccer image 10" width="600" height="400">
-  </a>
-  <div class="desc">Marcus Rashford</div>
-  <div class="Europe"></div>
-<div class="gallery">
+    </a>
+    <div class="desc">Marcus Rashford</div>
+   <div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="soccerimage11.jpg">
       <img src="soccerimage11.jpg" alt="Soccer image 11" width="600" height="400">
-  </a>
-  <div class="desc">Erling Haaland</div>
-   <div class="Europe"></div>
+    </a>
+    <div class="desc">Erling Haaland</div>
+   <div>
+</div>
+
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="Soccerimage2.jpg">
       <img src="Soccerimage2.jpg" alt="Soccer image 2" width="600" height="400">
-  </a>
-  <div class="desc">Messi vs Kante</div>
-<div class="Europe">
-<div class="gallery">
+    </a>
+    <div class="desc">Messi vs Kante</div>
+   <div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="Soccerimage4.jpg">
       <img src="Soccerimage4.jpg" alt="Soccer image 4" width="600" height="400">
-  </a>
-  <div class="desc">Robert Lewandowski</div>
-  <div class="Europe">
-<div class="gallery">
+    </a>
+    <div class="desc">Robert Lewandowski</div>
+   <div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="Soccerimage5.jpg">
       <img src="Soccerimage5.jpg" alt="Soccer image 5" width="600" height="400">
-  </a>
-  <div class="desc">Lionel Messi</div>
-    <div class="Europe">
-<div class="gallery">
+    </a>
+    <div class="desc">Lionel Messi</div>
+  <div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="Soccerimage6.jpg">
       <img src="Soccerimage6.jpg" alt="Soccer image 6" width="600" height="400">
-  </a>
-  <div class="desc">Cristiano Ronaldo</div>
-    <div class="Europe">
-<div class="gallery">
+    </a>
+    <div class="desc">Cristiano Ronaldo</div>
+  <div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="soccerimage9.jpg">
       <img src="soccerimage9.jpg" alt="soccer image 9" width="600" height="400">
-  </a>
-  <div class="desc">Jadon Sancho</div>
+    </a>
+    <div class="desc">Jadon Sancho</div>
+  <div>
+</div>
+
+
 </div>
 </body>
 </html>
