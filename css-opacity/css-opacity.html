@@ -3,20 +3,6 @@
 <head>
 <title>CSS Oppacity</title>
 <style>
-img {
-  opacity: 0.5;
-}
-img {
-  background: url(Happy.png) repeat;
-  border: 2px solid black;
-}
-
-img.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-}
 table {
   width: 100%;
   height: 100%;
@@ -49,7 +35,7 @@ table {
   opacity: 0.1;
 }
 table {
-  background: rgb(200, 153, 0);
+  background: rgb(220, 240, 0);
   padding: 10px;
 }
 #cel1 {
@@ -79,12 +65,33 @@ table {
 #cel9 {
   background: rgb(76, 175, 80, 0.1); /* Green background with 10% opacity */
 }
+#SMH {
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  z-index: -1;
+}
+#HAPPY{
+    position: absolute;
+  left: 200px;
+  top: 10px;
+  z-index: -1;
+}
 </style>
 </head>
-<body>
-<img src="Woman.png" alt="Forest" width="170" height="100">
+
+<head>
+
+<div id="SMH">
 <img src="smh.png">
-<img src="Happy.png">
+
+</style>
+</head>
+
+</div>
+<div id="HAPPY">
+    <img src="Happy.png">
+</div>
 <table>
   <tr>
     <td id="cell1">90%</td>
