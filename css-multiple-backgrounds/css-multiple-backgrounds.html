@@ -3,33 +3,64 @@
 <head>
 <title>CSS Multiple Backgrounds</title>
 <style>
-#Josiah{
-    height: 700px;
-    width: 700px;
+
+#Josiah {
+    height: 500px;
+    width: 500px;
     background-image: url(hat.png), url(Jossiah.jpg), url(white.jpg);
-    background-position: 370px 90px, right bottom, left top;
+    background-position: 310px 135px, right bottom, left top;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size:  250px 250px, 500px 500px, auto;
+    background-size:  150px 150px, 300px 300px, auto;
     padding: 15px;
 }
+
+#Josiah2 {
+    height: 500px;
+    width: 500px;
+    background: url(hat.png) 310px 135px no-repeat, url(Jossiah.jpg) right bottom no-repeat, url(white.jpg) left top repeat;
+    background-size:  150px 150px, 300px 300px, auto;
+    padding: 15px;
+}
+
+html {
+  background: url(Soccerimage1_copy.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
 #KML  { 
   background: url(3000.jpeg) no-repeat center fixed; 
   background-size: cover;
 } 
-#Soccer {
-    background: url(Hero.jpg);
-    background-size: cover;
-    height: 500px;
-    width: 500px;
+
+
+.hero-image {
+    background: url(Hero.jpg) no-repeat center top;
+    background-size: 380px 380px;
+    height: 300px;
     position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 </style>
 </head>
 <body>
+
+<div class="hero-image">
+   <div class="hero-text">
+     <h1 style="font-size:30px">Christopher Ambrose</h1>  
+   </div>
+</div>
 <div id="Josiah"></div>
+<div id="Josiah2"></div>
 <div id="KML"></div>
-<div id="Soccer">
-<h1>Christopher Ambrose</h1>
+
 </div>
 </body>
 </html>
