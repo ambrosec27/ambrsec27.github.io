@@ -35,6 +35,28 @@ li a:hover:not(.active) {
 .active {
   background-color: Blue;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+    font-family: 'Langar', cursive; 
+    font-size: 20px
+}
 </style>
 </head>
 <body>
@@ -45,10 +67,23 @@ li a:hover:not(.active) {
   <li><a href="css-navbar-horiz-History.html">History</a></li>
     <li><a href="css-navbar-horiz-Photos.html">Photos</a></li>
   <li><a href="css-navbar-horiz-Directions.html">Directions</a></li>
-
 </ul>
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
- <h1>Accomodations</h1> 
+<div class="header">
+<h1>Accomodations</h1>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<div class="column">
+    <h2>Places To Stay</h2>
+    <p>The Richfield area has over a dozen places to stay within a ten mile radius while visiting the area. There are several large chain hotels, local motels, 
+    and a bed and breakfast. These accomodations allow for a budget minded stay to a more luxurious room. Some include pool accomodations 
+    and some are pet friendly. These places should allow anyone to find a place to stay that meets their needs.
+    </p>
+</div>
+    <div class="column">
+    <h2>Links</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, </p>
+  </div>
 </div>
 </body>
 </html>
