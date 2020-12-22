@@ -210,7 +210,7 @@ body {
   width: 50%;
   padding: 15px;
     font-family: 'Langar', cursive; 
-    font-size: 20px
+    font-size: 20px;
 }
 /*mouse over link*/
 #Johnny:hover{
@@ -289,6 +289,9 @@ li a:hover:not(.active) {
   .active {
   background-color: Blue;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
@@ -299,14 +302,16 @@ body {
   padding: 20px;
   text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size:30px
+    font-size:30px;
 }
 .column {
   float: left;
   width: 50%;
   padding: 15px;
     font-family: 'Langar', cursive; 
-    font-size: 20px
+    font-size: 20px;
+      float: none;
+
 }
 footer {
   text-align: center;
