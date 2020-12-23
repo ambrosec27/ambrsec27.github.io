@@ -35,6 +35,32 @@ li a:hover:not(.active) {
 .active {
   background-color: Blue;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+    font-family: 'Langar', cursive; 
+    font-size: 20px
+}
+/*mouse over link*/
+#google:hover{
+    color:blue;
+}
 </style>
 </head>
 <body>
@@ -45,10 +71,24 @@ li a:hover:not(.active) {
   <li><a href="history.html">History</a></li>
     <li><a href="photos.html">Photos</a></li>
   <li><a class="active" href="directions.html">Directions</a></li>
-
 </ul>
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
- <h1>Accomodations</h1> 
+<div class="header">
+<h1>How To Get To Richfield</h1>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </div>
+<div class="column">
+    <h2>Directions</h2>
+<p>Richfield is located in the southeastern portion of the state of Wisconsin. It is in Washington County, just west of I-41. Located 
+20 miles north of I-94 and just east of Holy Hill. Richfield is 27 minutes northwest of Milwaukee and 1 hour, 45 minutes south southwest 
+of Green Bay. It is easy to find from any major highway. 
+</p>
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swa">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+</div>
+    <div class="column">
+    <h2>Map</h2>
+    <p><a href="https://goo.gl/maps/jfavQThZSi7Q4xrE8" id="google">Google Map Link</a></p>
+    <img src="map.gif" alt="map" width="525" height="400"></div>
 </body>
 </html>

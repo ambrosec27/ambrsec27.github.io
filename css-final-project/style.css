@@ -30,6 +30,7 @@ li a:hover:not(.active) {
 .active {
   background-color: Blue;
 }
+
 body {
   margin: 0;
 }
@@ -50,7 +51,7 @@ body {
   width: 100%;
   padding: 15px;
     font-family: 'Langar', cursive; 
-    font-size: 20px
+    font-size: 20px;
 }
 footer {
   text-align: center;
@@ -210,7 +211,6 @@ body {
   width: 50%;
   padding: 15px;
     font-family: 'Langar', cursive; 
-    font-size: 20px;
 }
 /*mouse over link*/
 #Johnny:hover{
@@ -310,12 +310,12 @@ body {
   padding: 15px;
     font-family: 'Langar', cursive; 
     font-size: 20px;
-      float: none;
-
 }
 footer {
   text-align: center;
   padding: 3px;
   font-size: 15px;
   font-family: 'Langar', cursive; 
+    clear: both;
 }
+
