@@ -372,7 +372,9 @@ body {
   width: 50%;
   padding: 15px;
     font-family: 'Langar', cursive; 
-    font-size: 20px
+    font-size: 20px;
+      background-color: #f1f1f1;
+
 }
 /*mouse over link*/
 #google:hover{
@@ -384,4 +386,6 @@ footer {
   font-size: 15px;
   font-family: 'Langar', cursive; 
     clear: both;
+      background-color: #f1f1f1;
+
 }
