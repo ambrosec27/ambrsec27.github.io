@@ -312,6 +312,8 @@ body {
   padding: 15px;
     font-family: 'Langar', cursive; 
     font-size: 20px;
+          background-color: #f1f1f1;
+
 }
 footer {
   text-align: center;
@@ -319,6 +321,8 @@ footer {
   font-size: 15px;
   font-family: 'Langar', cursive; 
     clear: both;
+          background-color: #f1f1f1;
+
 }
 ul {
   list-style-type: none;
